@@ -68,6 +68,7 @@
 }
 
 
+
 main{
     background-color:rgba(187, 185, 185, 0.699);
     max-width: 1000px;
@@ -84,6 +85,8 @@ main img {
     margin: auto;
     
 }
+
+
 .principal h2 , h1 , p , h3 {
     padding: 15px;
 }
