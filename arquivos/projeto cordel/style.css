@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap');
+
+:root{
+
+    --font-titulo : font-family: 'Noto Serif Khojki', serif;
+    --font-geral :
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    height: 250px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+}
+.cabecalho h1{
+    font-family: 'Noto Serif Khojki', serif ;
+    font-size: 70px;
+    padding-top: 25px;
+    font-weight: bolder;
+
+}
