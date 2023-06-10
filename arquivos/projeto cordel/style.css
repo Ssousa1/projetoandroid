@@ -1,27 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki&display=swap');
-
-:root{
-
-    --font-titulo : font-family: 'Noto Serif Khojki', serif;
-    --font-geral :
-}
-
-
+@charset "UTF-8" ;
 *{
     margin: 0;
     padding: 0;
 }
+/* importe de fontes*/
 
-.cabecalho{
-    height: 250px;
-    background-color: black;
-    color: #ffffff;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
 }
-.cabecalho h1{
-    font-family: 'Noto Serif Khojki', serif ;
-    font-size: 70px;
-    padding-top: 25px;
-    font-weight: bolder;
 
+
+html , body{ 
+    min-height: 100vh;
+    font-family: var(--fonte1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--fonte3);
+    border-radius: 5px;
+    box-shadow: 1px -5px 13px #00000080;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 4.5vw;
+}
+
+section p{
+    margin-bottom: 30px;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+    font-size: 3.5vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+.withImg{
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+
+
+    background-color: rgba(0, 0, 0, 0);
+    color:white ;
+    font-size: 3.5vh;  
+}
+.withImg  > p {
+    background-color: rgba(0, 0, 0, 0.514);
+    font-weight: bolder;
+    display: inline-block;
+    padding: 10px;
+}
+
+.withImg1{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    color:white ;
+    font-size: 3.5vh;
+}
+
+.withImg1  > p {
+    background-color: rgba(0, 0, 0, 0.514);
+    font-weight: bolder;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px -5px 13px #00000080;
 }
